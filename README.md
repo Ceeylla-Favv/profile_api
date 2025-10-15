@@ -10,26 +10,9 @@ A simple Phoenix-based API that demonstrates environment variable loading via `.
 ```bash
 git clone https://github.com/Ceeylla-Favv/profile_api.git
 cd profile_api
-
-2. Install dependencies
+```
+### 2. Install dependencies
 mix deps.get
-
-3. Setup the environment
-
-Create a .env file in the project root:
-
-USER_EMAIL=youremail@example.com
-USER_NAME="Your Name"
-USER_STACK="Elixir/Phoenix"
-
-
-
-4. Run the server
-mix phx.server
-
-
-Visit the API at:
-👉 http://localhost:4000/me
 
 ⚙️ Dependencies
 Dependency	Purpose
@@ -40,20 +23,27 @@ Jason	JSON encoding/decoding
 HTTPoison API requests
 CORSPlug CORS handling
 
+### 3. Setup the environment
 
-Install with:
+Create a .env file in the project root:
+```
+USER_EMAIL=youremail@example.com
+USER_NAME="Your Name"
+USER_STACK="Elixir/Phoenix"
+```
 
-mix deps.get
 
-
-🧪 Testing Your Endpoint
-
-Start your server:
-
+### 4. Run the server
 mix phx.server
 
 
-Then test the endpoint:
+### 5. Visit the API at:
+👉 http://localhost:4000/me
+
+
+
+
+### 6. Then test the endpoint:
 
 curl http://localhost:4000/me
 
