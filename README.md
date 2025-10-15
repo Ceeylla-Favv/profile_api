@@ -47,7 +47,7 @@ mix phx.server
 
 curl http://localhost:4000/me
 
-
+```
 Expected JSON response:
 {
   "status": "success",
@@ -58,7 +58,7 @@ Expected JSON response:
   "timestamp": "2025-10-15T12:00:00.000Z",
   "fact": "Cats have five toes on their front paws."
 }
-
+```
 
 🧰 Notes
 
